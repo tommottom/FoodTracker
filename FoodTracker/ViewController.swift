@@ -74,9 +74,9 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     
     //UIButtonを利用するためのメソッドを生成
     //ボタンが押されたら、代入される文字列を出力する。
-    @IBAction func setDefaultLabelText(sender: UIButton) {
-         mealNameLabel.text = "Default Text"
-    }
+   // @IBAction func setDefaultLabelText(sender: UIButton) {
+        // mealNameLabel.text = "Default Text"
+    //}
     
     //UITextFieldを利用するためのメソッドを生成
     func textFieldDidEndEditing(textField: UITextField) {
